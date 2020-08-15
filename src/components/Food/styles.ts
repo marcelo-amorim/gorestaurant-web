@@ -11,6 +11,7 @@ export const Container = styled.div<IFoodPlateProps>`
   header {
     background: #ffb84d;
     border-radius: 8px 8px 0px 0px;
+    /* width: 405px; */
     height: 192px;
     overflow: hidden;
     transition: 0.3s opacity;
@@ -23,6 +24,7 @@ export const Container = styled.div<IFoodPlateProps>`
       `};
 
     img {
+      width: 405px;
       pointer-events: none;
       user-select: none;
     }
